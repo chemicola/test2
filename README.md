@@ -1,7 +1,7 @@
-Texto a Voz con pyttsx3
+# Texto a Voz con pyttsx3
 Este proyecto utiliza la librería pyttsx3 para convertir texto en voz. pyttsx3 es una librería multiplataforma que funciona sin necesidad de conexión a internet y es compatible con Windows, macOS y Linux.
 
-Requisitos Previos
+# Requisitos Previos
 Antes de ejecutar el proyecto, asegúrate de tener instalado Python en tu sistema. Además, necesitarás instalar la librería pyttsx3. Puedes instalarla utilizando pip:
 
 bash
@@ -12,7 +12,7 @@ Clona este repositorio en tu máquina local o descarga los archivos del proyecto
 
 Asegúrate de que tienes un entorno de Python configurado y que has instalado la librería pyttsx3 como se mencionó anteriormente.
 
-Uso del Código
+# Uso del Código
 El siguiente código muestra cómo utilizar pyttsx3 para convertir texto en voz:
 
 python
