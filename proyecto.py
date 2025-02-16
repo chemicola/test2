@@ -5,7 +5,7 @@ import pyttsx3 as tts
 engine = tts.init()
 
 # Configuración de propiedades.
-engine.setProperty('rate', 500)  # <-- Velocidad de la voz
+engine.setProperty('rate', 200)  # <-- Velocidad de la voz
 engine.setProperty('volume', 0.5)  # <-- Volumen (0.0 a 1.0)
 
 # Texto que quieres convertir a voz.
