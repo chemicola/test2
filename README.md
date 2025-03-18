@@ -37,7 +37,7 @@ engine.runAndWait()
 Explicación del Código
 Inicialización del motor: engine = tts.init() inicializa el motor de texto a voz.
 
-Configuración de propiedades:
+# Configuración de propiedades:
 
 engine.setProperty('rate', 500): Establece la velocidad de la voz. El valor por defecto es 200. Un valor más alto aumenta la velocidad.
 
@@ -50,23 +50,25 @@ Reproducción de la voz: engine.runAndWait() reproduce el texto en voz alta y es
 Personalización
 Puedes personalizar la voz y otros parámetros según tus necesidades. Aquí hay algunas opciones adicionales que puedes explorar:
 
-Cambiar la voz: Puedes cambiar la voz utilizando engine.setProperty('voice', voice_id). Para obtener una lista de voces disponibles, puedes usar el siguiente código:
+Cambiar la voz: 
+Puedes cambiar la voz utilizando engine.setProperty('voice', voice_id). Para obtener una lista de voces disponibles, puedes usar el siguiente código:
 
 python
 Copy
 voices = engine.getProperty('voices')
 for voice in voices:
     print("Voice:", voice.name, "ID:", voice.id)
-Guardar el audio en un archivo: Puedes guardar el audio generado en un archivo utilizando engine.save_to_file(texto, 'nombre_del_archivo.mp3') antes de llamar a engine.runAndWait().
+# Guardar el audio en un archivo: Puedes guardar el audio generado en un archivo utilizando engine.save_to_file(texto, 'nombre_del_archivo.mp3') antes de llamar a engine.runAndWait().
 
-Ejecución del Proyecto
+# Ejecución del Proyecto
 Para ejecutar el proyecto, simplemente ejecuta el archivo Python que contiene el código:
 
 bash
 Copy
 python nombre_del_archivo.py
-Contribuciones
+
+# Contribuciones
 Si deseas contribuir a este proyecto, por favor abre un issue o envía un pull request. Todas las contribuciones son bienvenidas.
 
-Licencia
+# Licencia
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
